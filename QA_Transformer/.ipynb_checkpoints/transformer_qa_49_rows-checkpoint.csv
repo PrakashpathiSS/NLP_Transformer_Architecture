@@ -1,0 +1,50 @@
+question,context,answer
+What is artificial intelligence?,Artificial intelligence (AI) is the field of computer science focused on creating systems that can perform tasks that normally require human intelligence.,is the field of computer science focused on creating systems that can perform tasks
+What is machine learning?,Machine learning is a branch of artificial intelligence that allows computers to learn patterns from data and make predictions or decisions.,Machine learning is a branch of artificial intelligence that allows computers to learn patterns from data
+What is deep learning?,Deep learning is a type of machine learning that uses neural networks with multiple layers to learn complex patterns from data.,uses neural networks with multiple layers to learn complex patterns
+What is NLP?,"Natural language processing, or NLP, is a field of AI that enables computers to understand, process, and generate human language.","enables computers to understand, process, and generate human language."
+What is a transformer?,A Transformer is a neural network architecture that uses attention mechanisms to process relationships between tokens in a sequence.,A Transformer is a neural network architecture that uses attention mechanisms
+What is self-attention?,Self-attention allows each token in a sequence to consider other tokens when creating its representation.,Self-attention allows each token
+What is an embedding?,An embedding represents a token as a numerical vector that captures useful information about the token.,An embedding represents a token as a numerical vector
+What is a tokenizer?,"A tokenizer converts text into smaller units such as words, subwords, or tokens that a model can process.",tokens that a model can process.
+What is a token ID?,A token ID is a numerical identifier assigned to a token in a tokenizer vocabulary.,A token ID is a numerical identifier assigned to a token
+What is a vocabulary?,A vocabulary is the collection of tokens known by a tokenizer or language model.,A vocabulary is the collection of tokens known by a tokenizer or language model.
+What is an epoch?,An epoch is one complete pass through the training dataset during model training.,An epoch is one complete pass through the training dataset
+What is a batch?,A batch is a group of training examples processed together before the model parameters are updated.,A batch is a group of training examples processed together
+What is a parameter?,"A parameter is a learnable numerical value, such as a weight or bias, adjusted during model training.","A parameter is a learnable numerical value,"
+What is a hyperparameter?,"A hyperparameter is a setting chosen before or during training, such as learning rate, batch size, or embedding dimension.",A hyperparameter is a
+What is a loss function?,A loss function measures the difference between a model's prediction and the expected target.,A loss function measures the difference between
+What is an optimizer?,An optimizer updates model parameters using gradients to reduce the training loss.,An optimizer updates model parameters
+What is backpropagation?,Backpropagation calculates gradients of the loss with respect to model parameters so the optimizer can update them.,Backpropagation calculates gradients of the loss with respect to model parameters
+What is teacher forcing?,Teacher forcing trains a sequence model by providing the correct previous target token as input when predicting the next token.,the correct previous target token
+What is text generation?,Text generation is the process of producing new text by predicting tokens sequentially based on previous tokens.,new text by predicting tokens sequentially
+What is temperature in text generation?,Temperature changes the sharpness of the probability distribution used to sample the next token.,Temperature changes the sharpness of the
+What is top-k sampling?,Top-k sampling restricts next-token sampling to the k tokens with the highest probabilities.,sampling to the k
+What is top-p sampling?,Top-p sampling selects from the smallest set of tokens whose cumulative probability reaches a chosen probability threshold.,tokens whose cumulative probability reaches a chosen
+What is text summarization?,Text summarization generates a shorter version of a document while preserving its important information.,Text summarization generates a shorter version
+What is question answering?,Question answering is an NLP task in which a model provides an answer to a question using a given context or knowledge source.,provides an answer to a question using
+What is RAG?,Retrieval-Augmented Generation combines information retrieval with text generation so a model can use relevant external documents when answering questions.,combines information retrieval with text generation
+What is BM25?,BM25 is a lexical information retrieval algorithm commonly used to rank documents based on how well they match a query.,documents based on
+What is chunking?,Chunking divides a large document into smaller text segments so they can be indexed and retrieved efficiently.,Chunking divides a large document into smaller text segments
+What is a vector database?,A vector database stores numerical vector representations and supports similarity search over those vectors.,A vector database stores
+What is cosine similarity?,Cosine similarity measures the similarity between two vectors based on the angle between them.,similarity between two vectors based on
+What is a neural network?,A neural network is a machine learning model made of interconnected layers that transform input data into useful representations and predictions.,A neural network is a machine learning model made of interconnected layers
+What is an activation function?,An activation function transforms a neural network's intermediate values and helps the network learn nonlinear relationships.,network learn nonlinear relationships.
+What is ReLU?,"ReLU, or Rectified Linear Unit, returns zero for negative inputs and the input value for positive inputs.",returns zero for negative inputs and the input
+What is a softmax function?,Softmax converts a set of logits into probabilities that sum to one.,logits into probabilities that sum to one.
+What is a logit?,A logit is an unnormalized score produced by a model before values are converted into probabilities.,A logit is an unnormalized
+What is overfitting?,Overfitting occurs when a model learns the training data too closely and performs poorly on unseen data.,Overfitting occurs when a model learns
+What is validation data?,Validation data is a portion of data used to evaluate model performance during development without updating model parameters from those examples.,model performance during development
+What is test data?,Test data is held-out data used to measure how well a trained model generalizes to unseen examples.,to unseen examples.
+What is inference?,Inference is the process of using a trained model to produce predictions or outputs for new input data.,a trained model to produce
+What is an LSTM?,"LSTM, or Long Short-Term Memory, is a recurrent neural network architecture designed to model dependencies across sequences.",is a recurrent neural network architecture
+What is an encoder?,An encoder transforms an input sequence into internal representations that can be used by another part of a model.,An encoder transforms an input sequence into internal representations
+What is a decoder?,A decoder generates an output sequence based on learned representations and previously generated tokens.,A decoder generates an output sequence
+What is causal masking?,Causal masking prevents a decoder from attending to future tokens when predicting the current token.,Causal masking prevents
+What is positional encoding?,Positional encoding provides information about the position or order of tokens in a sequence.,Positional encoding provides
+Why is attention useful?,Attention allows a model to focus on relevant tokens when processing a sequence.,Attention allows a model to focus on relevant tokens
+What is generative AI?,"Generative AI refers to AI systems that create new content such as text, images, audio, or code.","new content such as text, images, audio, or code."
+What is a corpus?,A corpus is a collection of text or other language data used for analysis or model development.,A corpus is a collection of
+What is data preprocessing?,"Data preprocessing prepares raw data for model training by cleaning, transforming, filtering, or formatting it.",Data preprocessing prepares raw data for model training
+Why split data into training and validation sets?,The split allows a model to learn from training data while its performance is monitored on separate validation data.,validation data.
+What is greedy decoding?,Greedy decoding selects the highest-probability token at each generation step.,Greedy decoding selects the highest-probability token at each
